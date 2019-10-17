@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <conio.h>
+
 int main()
 {
 //to compare numbers
@@ -11,9 +13,7 @@ else if(b>c)
    printf("The number %d is greater \n" ,b);
 else 
    printf("The number %d is greater \n" ,c);
+   
+ getch();
  return 0;
- 
-
-
-
 }
